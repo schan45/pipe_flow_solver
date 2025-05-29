@@ -1,4 +1,4 @@
-# Pipe Flow GUI Solver (Magyar Nyelvű Vizualizációs Eszköz)
+# Pipe Flow GUI Solver
 
 This is a graphical C++ application developed using the Qt framework. It allows users to configure and solve a pipe network that connects **sources (forrás)** to **sinks (fogyasztó)** using various pipe shapes. The GUI is **in Hungarian**, and the visualization highlights **correct connections using green color** when sources and sinks are connected successfully.
 
