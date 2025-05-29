@@ -67,27 +67,28 @@ Each tile is visualized with a corresponding image (e.g., `kanyar0.png`, `tcso0.
 
 ## Project Structure
 
-pipe_flow_solver/
-├── coord.cpp
+```plaintext
+nagybeadando_v10/
+├── coord.cpp              # Coordinate helper class
 ├── coord.h
-├── main.cpp
-├── mainwindow.cpp
+├── main.cpp               # Application entry point
+├── mainwindow.cpp         # GUI logic
 ├── mainwindow.h
-├── mainwindow.ui
-├── tile.cpp
+├── mainwindow.ui          # GUI layout (Qt Designer)
+├── tile.cpp               # Tile behavior and image rendering
 ├── tile.h
-├── tilemap.cpp
+├── tilemap.cpp            # Solver algorithm and map handling
 ├── tilemap.h
-├── nagybeadando_v10.pro
-├── resources.qrc
-├── images/                 # Folder containing all GUI images
+├── nagybeadando_v10.pro   # Qt project file
+├── resources.qrc          # Resource file (for images)
+├── images/                # GUI asset images
 │   ├── egyenescso0.png
 │   ├── kanyar0.png
-│   ├── tcso0.png
+│   ├── kereszt0.png
 │   └── ...
-├── README.md               # Project documentation
-├── .gitignore              # Git ignore rules (optional)
-
+├── README.md              # Project documentation
+└── .gitignore             # Git exclusions
+```
 
 ---
 
