@@ -103,9 +103,9 @@ pipe_flow_solver/
 
 This project is shared for educational and personal use purposes. No commercial use is permitted unless explicitly granted.
 
----
-![Example](images/screenshot.png)
----
+<p align="center">
+  <img src="images/screenshot.png" width="500">
+</p>
 
 ## Contributions
 
