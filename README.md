@@ -67,11 +67,27 @@ Each tile is visualized with a corresponding image (e.g., `kanyar0.png`, `tcso0.
 
 ## Project Structure
 
-- `main.cpp`: Application entry point
-- `mainwindow.*`: GUI controller and logic
-- `tile.*`: Pipe piece logic and rendering
-- `tilemap.*`: Solver algorithm and map management
-- `coord.*`: Coordinate utilities
+`pipe_flow_solver/
+├── coord.cpp
+├── coord.h
+├── main.cpp
+├── mainwindow.cpp
+├── mainwindow.h
+├── mainwindow.ui
+├── tile.cpp
+├── tile.h
+├── tilemap.cpp
+├── tilemap.h
+├── nagybeadando_v10.pro
+├── resources.qrc
+├── images/                 # Folder containing all GUI images
+│   ├── egyenescso0.png
+│   ├── kanyar0.png
+│   ├── tcso0.png
+│   └── ...
+├── README.md               # Project documentation
+├── .gitignore              # Git ignore rules (optional)
+`
 
 ---
 
