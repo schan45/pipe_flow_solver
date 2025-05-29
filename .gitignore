@@ -1,32 +1,25 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Qt build artifacts
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
+*.so
+*.dll
 *.exe
-*.out
+*.moc
+Makefile
+*.pro.user
+*.qrc.depends
+*.autosave
+.qmake.stash
+build-*/
+debug/
+release/
 *.app
+*.log
+
+# IDE files
+*.user
+.idea/
+*.sln
+*.vcxproj*
+*.DS_Store
