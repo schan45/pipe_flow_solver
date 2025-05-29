@@ -1,0 +1,25 @@
+# Qt build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.moc
+Makefile
+*.pro.user
+*.qrc.depends
+*.autosave
+.qmake.stash
+build-*/
+debug/
+release/
+*.app
+*.log
+
+# IDE files
+*.user
+.idea/
+*.sln
+*.vcxproj*
+*.DS_Store
