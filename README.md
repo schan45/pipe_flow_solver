@@ -67,7 +67,7 @@ Each tile is visualized with a corresponding image (e.g., `kanyar0.png`, `tcso0.
 
 ## Project Structure
 
-`pipe_flow_solver/
+pipe_flow_solver/
 ├── coord.cpp
 ├── coord.h
 ├── main.cpp
@@ -87,7 +87,7 @@ Each tile is visualized with a corresponding image (e.g., `kanyar0.png`, `tcso0.
 │   └── ...
 ├── README.md               # Project documentation
 ├── .gitignore              # Git ignore rules (optional)
-`
+
 
 ---
 
