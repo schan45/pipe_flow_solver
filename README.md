@@ -68,7 +68,7 @@ Each tile is visualized with a corresponding image (e.g., `kanyar0.png`, `tcso0.
 ## Project Structure
 
 ```plaintext
-nagybeadando_v10/
+pipe_flow_solver/
 ├── coord.cpp              # Coordinate helper class
 ├── coord.h
 ├── main.cpp               # Application entry point
@@ -79,7 +79,7 @@ nagybeadando_v10/
 ├── tile.h
 ├── tilemap.cpp            # Solver algorithm and map handling
 ├── tilemap.h
-├── nagybeadando_v10.pro   # Qt project file
+├── pipe_flow_solver.pro   # Qt project file
 ├── resources.qrc          # Resource file (for images)
 ├── images/                # GUI asset images
 │   ├── egyenescso0.png
